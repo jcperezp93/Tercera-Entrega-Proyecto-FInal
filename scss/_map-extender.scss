@@ -1,0 +1,26 @@
+$encabezados:(
+    xl:#e4a010,
+    l:#FBCD4B,
+    m:black,
+);
+$xl:map-get($encabezados,xl);
+$l:map-get($encabezados,l);
+$m:map-get($encabezados,m);
+.h1{
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+h1{
+    font-size: 4em;
+    color:$xl;
+}
+h2{
+    @extend .h1;
+    font-size: 2em;
+    color:$l;
+}
+h3{
+    @extend .h1;
+    font-size: 1em;
+    color:$m;
+}

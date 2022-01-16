@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ETIQUETAS SEO -->
+	<meta name="description" content="Contáctanos y te ayudaremos a definir tu futuro profesional.">
+	<meta name="keyword" content="contacto, carreras, ayuda, estudiar"> 
+  <!-- GOOGLE FONTS -->
+  <link rel="shortcut icon" href="../assets/img/book.png">
+  <link rel="stylesheet" href="styles/estilos.css">    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+  <!-- ANIMATED -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+   <!-- Bootstrap icons-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+   <!-- Core theme CSS (includes Bootstrap)-->
+   <link href="../styles/styles.css" rel="stylesheet" />
+   <!-- BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- CSS NUESTRO -->
+  <link rel="stylesheet" href="../styles/estilos.css">
+  <title>Micarrera.com | Carreras</title>
+</head>
+<body class="d-flex flex-column">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a href="../index.html"><img class="imgc" src="../assets/img/book.png" width="50px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="carerras.html" onclick="location.refresh()">Carreras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./orientacion.html">Orientación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./donde_estudiar.html">¿Dónde Estudiar?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+   <main class="flex-shrink-0">
+       <!-- Page content-->
+       <section class="py-5">
+           <div class="container px-5">
+               <!-- Contact form-->
+               <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+                   <div class="text-center mb-5">
+                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                       <h1 class="fw-bolder">Contáctanos</h1>
+                       <p class="lead fw-normal text-muted mb-0">Nos encantaría saber de ti</p>
+                   </div>
+                   <div class="row gx-5 justify-content-center">
+                       <div class="col-lg-8 col-xl-6">
+                           <!-- * * * * * * * * * * * * * * *-->
+                           <!-- * * SB Forms Contact Form * *-->
+                           <!-- * * * * * * * * * * * * * * *-->
+                           <!-- This form is pre-integrated with SB Forms.-->
+                           <!-- To make this form functional, sign up at-->
+                           <!-- https://startbootstrap.com/solution/contact-forms-->
+                           <!-- to get an API token!-->
+                           <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                               <!-- Name input-->
+                               <div class="form-floating mb-3">
+                                   <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                   <label for="name">Nombre Completo</label>
+                                   <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                               </div>
+                               <!-- Email address input-->
+                               <div class="form-floating mb-3">
+                                   <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                   <label for="email">Correo</label>
+                                   <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                   <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                               </div>
+                               <!-- Phone number input-->
+                               <div class="form-floating mb-3">
+                                   <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                   <label for="phone">Número Telefónico</label>
+                                   <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                               </div>
+                               <!-- Message input-->
+                               <div class="form-floating mb-3">
+                                   <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                   <label for="message">Mensaje</label>
+                                   <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                               </div>
+                               <!-- Submit success message-->
+                               <!---->
+                               <!-- This is what your users will see when the form-->
+                               <!-- has successfully submitted-->
+                               <div class="d-none" id="submitSuccessMessage">
+                                   <div class="text-center mb-3">
+                                       <div class="fw-bolder">Form submission successful!</div>
+                                       To activate this form, sign up at
+                                       <br />
+                                       <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                   </div>
+                               </div>
+                               <!-- Submit error message-->
+                               <!---->
+                               <!-- This is what your users will see when there is-->
+                               <!-- an error submitting the form-->
+                               <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                               <!-- Submit Button-->
+                               <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button></div>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+               <!-- Contact cards-->
+               <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5">
+                   <div class="col">
+                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-chat-dots"></i></div>
+                       <div class="h5 mb-2">Chatea con nosotros</div>
+                       <p class="text-muted mb-0">Chat en vivo con especialistas en vivo.</p>
+                   </div>
+                   <div class="col">
+                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
+                       <div class="h5">Comunidad</div>
+                       <p class="text-muted mb-0">Explore nuestros foros comunitarios y comunícate con otros usuarios.</p>
+                   </div>
+                   <div class="col">
+                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-question-circle"></i></div>
+                       <div class="h5">Centro de Apoyo</div>
+                       <p class="text-muted mb-0">
+                           Explora las preguntas frecuentes y los artículos de soporte para encontrar soluciones.</p>
+                   </div>
+                   <div class="col">
+                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-telephone"></i></div>
+                       <div class="h5">Llámanos</div>
+                       <p class="text-muted mb-0">Llámenos durante el horario laboral normal al (57) 312 354 6830.</p>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </main>
+   <!-- Footer-->
+   <footer class="bg-dark py-4 mt-auto">
+       <div class="container px-5">
+           <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+               <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; micarrera.com 2021</div></div>
+               <div class="col-auto">
+                   <a class="link-light small" href="#!">Privacidad</a>
+                   <span class="text-white mx-1">&middot;</span>
+                   <a class="link-light small" href="#!">Terminos</a>
+                   <span class="text-white mx-1">&middot;</span>
+                   <a class="link-light small" href="#!">Contacto</a>
+               </div>
+           </div>
+       </div>
+   </footer>
+   <!-- Bootstrap core JS-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Core theme JS-->
+   <script src="js/scripts.js"></script>
+   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+   <!-- * *                               SB Forms JS                               * *-->
+   <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>

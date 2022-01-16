@@ -1,0 +1,18 @@
+$bgcaja1:none;
+$bgcaja2:none;
+
+@mixin cajas($bgcaja) {
+    background-color:$bgcaja;
+    transform: scale(1,1);
+    transition: all 1.5s;
+    &:hover {
+       transform: scale(1.05,1.05);
+    }   
+} 
+
+.s4_2 {
+    @include cajas ($bgcaja1);    
+}
+.s4_2B {
+    @include cajas ($bgcaja2);    
+}
